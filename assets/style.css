@@ -60,6 +60,10 @@ body
 .people-list .clearfix img
 {
   float: left;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  object-position: center;
   border-radius: 50%;
 }
 .people-list .about
