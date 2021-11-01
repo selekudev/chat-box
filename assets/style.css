@@ -57,20 +57,21 @@ body
 {
   padding-bottom: 20px;
 }
-img
+.people-list .clearfix img
 {
   float: left;
+  border-radius: 50%;
 }
-.about
+.people-list .about
 {
   float: left;
   margin-top: 8px;
 }
-.about
+.people-list .about
 {
   padding-left: 8px;
 }
-.status
+.people-list .status
 {
   color: #92959e;
 }
@@ -83,54 +84,54 @@ img
   border-bottom-right-radius: 5px;
   color: #434651;
 }
-.chat-header
+.chat .chat-header
 {
   padding: 20px;
   border-bottom: 2px solid #fff;
 } 
-img
+.chat .chat-header img
 {
   float: left;
 }
-.chat-about
+.chat .chat-header .chat-about
 {
   float: left;
   padding-left: 10px;
   margin-top: 6px;
 }
-.chat-with
+.chat .chat-header .chat-with
 {
   font-weight: bold;
   font-size: 16px;
 }
-.chat-num-messages
+.chat .chat-header .chat-num-messages
 {
   color: #92959e;
 } 
-.fa-star
+.chat .chat-header .fa-star
 {
   float: right;
   color: #d8dadf;
   font-size: 20px;
   margin-top: 12px;
 } 
-.chat-history
+.chat .chat-history
 {
   padding: 30px 30px 20px;
   border-bottom: 2px solid #fff;
   overflow-y: scroll;
   height: 575px;
 }
-.message-data
+.chat .chat-history .message-data
 {
   margin-bottom: 15px;
 }
-.message-data-time
+.chat .chat-history .message-data-time
 {
   color: #92959e;
   padding-left: 6px;
 }
-.message
+.chat .chat-history .message
 {
   position: relative;
   width: 90%;
@@ -141,7 +142,7 @@ img
   border-radius: 7px;
   margin-bottom: 30px;
 } 
-.message:after
+.chat .chat-history .message:after
 {
   content: "";
   position: absolute;
@@ -155,24 +156,24 @@ img
   border-width: 10px;
   margin-left: -10px;
 }
-.my-message
+.chat .chat-history .my-message
 {
   background: #86bb71;
 }
-.other-message
+.chat .chat-history .other-message
 {
   background: #94c2ed;
 } 
-.other-message:after
+.chat .chat-history .other-message:after
 {
   border-bottom-color: #94c2ed;
   left: 93%;
 }
-.chat-message
+.chat .chat-message
 {
   padding: 30px;
 }
-textarea
+.chat .chat-message textarea
 {
   width: 100%;
   border: none;
@@ -188,7 +189,7 @@ textarea
   color: gray;
   cursor: pointer; 
 }
-button
+.chat .chat-message button
 {
   float: right;
   color: #94c2ed;
