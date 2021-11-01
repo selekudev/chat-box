@@ -28,11 +28,11 @@ body
   width:260px;
   float: left;
 }
-.search
+.people-list .search
 {
   padding: 20px;
 }  
-input
+.people-list input
 {
   border-radius: 3px;
   border: none;
@@ -42,18 +42,18 @@ input
   width: 90%;
   font-size: 14px;
 }
-.fa-search
+.people-list .fa-search
 {
   position: relative;
   left: -25px;
 }
-ul
+.people-list ul
 {
   padding: 20px;
   height: 770px;
   list-style: none;
 }
-li
+.people-list ul li
 {
   padding-bottom: 20px;
 }
