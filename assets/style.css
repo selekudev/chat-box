@@ -13,3 +13,8 @@ body
 	background: #c5ddeb;
 	overflow-x: hidden;
 }
+.container
+{
+	width: 1000px;
+	background: #f2f5f8;
+}
